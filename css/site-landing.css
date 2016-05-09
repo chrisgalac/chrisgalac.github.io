@@ -1,0 +1,46 @@
+.full {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	background: url(../images/SanDiego2.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.focus {
+	background: transparent;
+	height: 200px;
+	width: 340px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.textbox {
+	text-align: center;
+	background: black;
+	margin: auto;
+}
+
+.sitetext {
+	color: white;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+#namebox {
+	margin-top: 20%;
+}
+
+#nametext {
+	font-family: Cabin, Helvetica, sans-serif;
+	letter-spacing: .03em;
+}
+
+#links {
+	display: inline;
+}
