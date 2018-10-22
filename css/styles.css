@@ -1,0 +1,55 @@
+.navbar{
+	margin-bottom: 0;
+	border-radius: 0;
+}
+
+.gray-bg{
+	background-color: #f8f8f8;
+}
+
+.city-bg{
+	background-image: url("../img/bgs/city-bg.png");
+	background-size: cover;
+}
+
+h1.white-shadow{
+	color: white;
+	text-shadow: 3px 3px 5px black;
+}
+
+p.white-shadow{
+	color: white;
+	text-shadow: 3px 3px 5px black;
+}
+
+#about-icon{
+	width: 150%;
+}
+
+#skills-icons{
+	display: flex;
+	width: 60%;
+	margin: 0 auto;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#skills-icons img{
+	margin: 5px 18px;
+}
+
+.project-thumb{
+	display: block;
+	margin: 0 auto;
+	object-fit: cover;
+	width: 230px;
+	height: 230px;
+}
+
+.footer-tobottom{
+	margin-top: 500px;
+}
+
+.footer-space{
+	height: 50px;
+}
